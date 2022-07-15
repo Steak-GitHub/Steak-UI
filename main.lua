@@ -651,7 +651,7 @@ By steak#8439",
 			BackgroundTransparency = 1,
 			Size = UDim2.new(0, 220, 0, 52),
 			ZIndex = 1,
-			create("Line", {
+			create("Frame", {
 				Name = "Line",
 				AnchorPoint = Vector2.new(0.5, 0),
 				BackgroundColor3 = Color3.fromRGB(100, 100, 100),
