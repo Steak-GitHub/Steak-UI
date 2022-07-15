@@ -1850,9 +1850,9 @@ By steak#8439",
 				local ValImg = Palette.ValImg
 				local HSImg = Palette.HueSatImg
 				local HSV = {
-					Hue = defaultHSV.Hue and (defaultHSV.Hue / 360) or 0,
-					Sat = defaultHSV.Sat and (defaultHSV.Sat / 255) or 0,
-					Val = defaultHSV.Val and (defaultHSV.Val / 255) or 1
+					Hue = defaultHSV and defaultHSV.Hue and (defaultHSV.Hue / 360) or 0,
+					Sat = defaultHSV and defaultHSV.Sat and (defaultHSV.Sat / 255) or 0,
+					Val = defaultHSV and defaultHSV.Val and (defaultHSV.Val / 255) or 1
 				}
 				
 				local function updateColor()
