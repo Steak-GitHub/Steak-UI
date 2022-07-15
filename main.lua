@@ -657,7 +657,7 @@ By steak#8439",
 				BackgroundColor3 = Color3.fromRGB(100, 100, 100),
 				BorderSizePixel = 0,
 				Position = UDim2.new(0.5, 0, 0, 50),
-				Size = UDim2(1, 0, 0, 2),
+				Size = UDim2.new(1, 0, 0, 2),
 				ZIndex = 1
 			}),
 			create("TextBox", {
